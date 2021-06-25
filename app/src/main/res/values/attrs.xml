@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="actionBarSize2" format="dimension">
+        <enum name="wrap_content" value="0" />
+    </attr>
+</resources>

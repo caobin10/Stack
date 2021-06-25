@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">JZFP_SC</string>
+    <string name="no_word_view">无字符UI</string>
+    <!--登录-->
+    <string name="please_enter_a_username">请输入用户名</string>
+    <string name="please_enter_a_password">请输入密码</string>
+    <string name="user_hint">用户名/手机号/电子邮箱</string>
+    <string name="confirm_exit_account">确定退出帐号？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="login">登录</string>
+    <string name="exit">退出</string>
+    <!--视图滑动切换-->
+    <string name="main_new_msg">消息</string>
+    <string name="main_home">首页</string>
+    <string name="main_profile">个人</string>
+    <string name="main_about">关于</string>
+    <!--主界面-->
+    <string name="base_data">基础数据</string>
+    <string name="base_service">基础服务</string>
+    <string name="base_statistics">基础统计</string>
+    <string name="business_example">业务例子</string>
+    <!--基础数据-->
+    <string name="total_population">总人口</string>
+    <string name="poverty_alleviation_population">扶贫人口</string>
+    <string name="cdpf_population">残联</string>
+
+    <!--请检查是否连接-->
+    <string name="please_look_if_connect">请检查是否连接</string>
+</resources>

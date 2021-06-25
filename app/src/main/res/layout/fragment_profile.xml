@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_lightest"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/ll_profile_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FFA4E8FF"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_beach2"></LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_profile_op"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@drawable/drvider_profile_type1" />
+
+            <TextView
+                android:id="@+id/tv_op3"
+                style="@style/Profile.TextView"
+                android:drawableLeft="@drawable/icon_customer_service"
+                android:text="客服" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@drawable/drvider_profile_type2" />
+
+            <TextView
+                android:id="@+id/tv_update_check"
+                style="@style/Profile.TextView"
+                android:drawableLeft="@drawable/ic_update"
+                android:text="检查更新" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@drawable/drvider_profile_type1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@drawable/drvider_profile_type1" />
+
+            <TextView
+                android:id="@+id/tv_setting"
+                style="@style/Profile.TextView"
+                android:drawableLeft="@drawable/icon_settings"
+                android:text="设置" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/drvider_profile_type1" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_exit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:background="@drawable/selector_bg_red_common"
+            android:text="@string/exit"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+        <!--<Button-->
+        <!--android:id="@+id/btn_exit"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/selector_bg_red_common"-->
+        <!--android:layout_margin="34dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="退出"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="@dimen/common_mid_text_size" />-->
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <!-- 基础颜色 -->
+    <color name="red">#ffff0000</color>
+
+    <color name="red_dark">#ffb03140</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#C2C2C2</color>
+    <color name="gray_lightest">#fff4f6f7</color>
+    <color name="gray_lighter">#E0E0E0</color>
+
+    <color name="black_blue">#0092DE</color>
+    <color name="red_lightest">#F27474</color>
+    <color name="gray_light">#ffebebeb</color>
+
+    <color name="white_gray">#fff4f6f7</color>
+
+    <color name="blue">#ff3399cc</color>
+
+
+    <!-- 特定颜色 -->
+    <color name="bg_head_bar_common">#fff6f6f6</color>
+    <color name="bg_head_bar_blue">@color/bg_head_bar_common</color>
+    <color name="text_head_bar_common">@color/red</color>
+
+    <color name="body_text_color_common">@color/black</color>
+
+    <color name="head_bar_divider_color_type1">#f4f4f4</color>
+
+    <color name="red_lighter">#CD5B55</color>
+    <color name="gray_deep">#ff535353</color>
+    <color name="gray_lv_blue_normal">#D2E1F4</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+
+    <!-- Button相关颜色 -->
+    <color name="button_bg_gray_normal">#D0D0D0</color>
+    <color name="button_bg_gray_pressed">#B6B6B6</color>
+    <color name="button_bg_blue_normal">#AEDEF4</color>
+    <color name="button_bg_blue_pressed">#96BFD2</color>
+    <color name="button_bg_red_normal">#DD6B55</color>
+    <color name="button_bg_red_pressed">#CD5B55</color>
+    <color name="button_text_color_common">@color/white</color>
+
+
+    <color name="pink_trace">#FDEFE9</color>
+    <color name="trace_bg_gray">#F9F9F9</color>
+
+    <!-- Temp -->
+    <color name="line_top_color">#ffe0dcd5</color>
+    <color name="translucent_1">#10000000</color>
+    <!--表格 分割线 颜色-->
+    <color name="gray_for_hit">#ff959595</color>
+    <color name="blue_sea">#ff73a7fa</color>
+    <color name="red_light">#ffff4444</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="blue_light">#ff33b5e5</color>
+
+    <color name="sel_value">#ff6d849f</color>
+    <color name="turquoise_color">#48D1CC</color>
+    <color name="aquamarine_color">#FFAAFFFE</color>
+
+    <!--很小的灰色-->
+
+
+
+
+
+</resources>

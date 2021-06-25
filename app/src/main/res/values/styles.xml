@@ -1,0 +1,55 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    //-----------------翔升 jzfp_sc 四川政务服务网---------------------//
+
+    <style name="XJFuPin"></style>
+
+    <style name="XJFuPin.MainTabBar">
+        <item name="android:orientation">horizontal</item>
+        <!--<item name="android:background">@drawable/bg_bottom_tabbar</item>-->
+        <item name="android:background">@color/button_text_color_common</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="XJFuPin.MainTabBar.Button">
+        <item name="android:textSize">@dimen/tabbar_text_size</item>
+        <item name="android:textColor">@drawable/selector_tabbar_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">90.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">1.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <!-- 个人中心界面相关style -->
+    <style name="Profile"></style>
+
+    <style name="Profile.TextView" parent="Profile">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:background">@drawable/selector_bg_profile_op</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawableRight">@drawable/ic_arrow_right</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!--activity主题-->
+    <style name="activityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        </style>
+</resources>

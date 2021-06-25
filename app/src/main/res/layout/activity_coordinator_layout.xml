@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiangsheng.jzfp_sc.Activity.mainfragment.homefragment.allpeople.AllPeopleActivity2">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view_head_har"
+        android:paddingTop="?attr/listPreferredItemHeightLarge"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"/>
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_below="@id/view_head_har"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/toolbarContainer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/view_head_har"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolBar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/listPreferredItemHeightLarge"-->
+            <!--android:layout_marginLeft="-17dp"-->
+            <!--android:background="#4097e6">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="#d6d6d6"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<com.xiangsheng.jzfp_sc.ui.UnitTextView2-->
+                    <!--android:id="@+id/tv_unit"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="@drawable/bg_select_input"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="15dp"-->
+                    <!--android:text="全国"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textCursorDrawable="@null"-->
+                    <!--android:textSize="15.0sp" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:paddingBottom="1dip"-->
+                    <!--android:paddingTop="1dip">-->
+
+                    <!--<LinearLayout-->
+                        <!--android:id="@+id/ll_query"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:visibility="visible">-->
+
+                        <!--<FrameLayout-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_weight="1">-->
+
+                            <!--<EditText-->
+                                <!--android:id="@+id/et_hint_cond"-->
+                                <!--android:layout_width="260dp"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_gravity="center"-->
+                                <!--android:background="@drawable/shape3"-->
+                                <!--android:hint="姓名/身份证号"-->
+                                <!--android:padding="5dp"-->
+                                <!--android:singleLine="true"-->
+                                <!--android:textCursorDrawable="@null"-->
+                                <!--android:textSize="15dp" />-->
+
+                            <!--<org.chuck.view.BadgeView-->
+                                <!--android:id="@+id/bv_total"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content" />-->
+                        <!--</FrameLayout>-->
+
+                        <!--<Button-->
+                            <!--android:id="@+id/btn_query"-->
+                            <!--android:layout_width="50dp"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:background="@null"-->
+                            <!--android:text="查询" />-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.Toolbar>-->
+
+    <!--</LinearLayout>-->
+
+    <include
+        android:id="@+id/view_head_har"
+        layout="@layout/head_bar_type1"/>
+
+</RelativeLayout>

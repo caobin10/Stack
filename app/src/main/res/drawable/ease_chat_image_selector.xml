@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--state：状态，pressed：按下，state_selected：挑选出来的,selector:选择器-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/icon_base1" android:state_pressed="true"/>
+    <item android:drawable="@drawable/icon_base2"/>
+
+</selector>
