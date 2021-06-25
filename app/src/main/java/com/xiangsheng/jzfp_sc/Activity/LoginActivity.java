@@ -75,7 +75,6 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
         } catch (Exception e) {
             System.out.println("_________________________________________" + e.toString());
         }
-
 //        Bitmap bmp = BitmapFactory.decodeResource(getResources(),R.drawable.s3);
 //        if (bmp != null) {
 //            Bitmap blurBitmap = null;
