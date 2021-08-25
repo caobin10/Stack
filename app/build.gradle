@@ -2,12 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.3"
-//^^^
-//    configurations {
-//        all*.exclude group: 'com.squareup.okio'
-//    }
-    //^^^
+    buildToolsVersion "31.0.0-rc4"
 
     defaultConfig {
         multiDexEnabled true
@@ -23,38 +18,21 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
     }
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile('com.android.support:appcompat-v7:25.3.1') {
-        exclude(group: 'com.android.support', module: 'support-v4')
-    }
-    testCompile 'junit:junit:4.12'
-    //        compile files('libs/jpush-sdk-release1.8.0.jar')
-    compile project(':Chuck')
-    compile 'com.android.support:support-v13:23.1.0'
-    compile project(':xUtils_lib')
-    //*************************Retrofit*****************************//
-    compile 'com.squareup.retrofit2:retrofit:2.3.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
-    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
-    //*************************OkHttp*****************************//
-    compile 'com.squareup.okhttp3:okhttp:3.4.1'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
-//    compile 'com.squareup.okio:okio:1.11.0'
-    //*************************RxJava*****************************//
-    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    compile 'io.reactivex.rxjava2:rxjava:2.1.7'
-    compile 'com.jakewharton.rxrelay2:rxrelay:2.0.0'
-    //实现rxbus,不会因为异常导致不发送事件
-//    compile files('libs/jackson-annotations-2.5.0.jar')
-
-    compile 'com.android.support:design:23.1.1'
+    implementation 'com.android.support:appcompat-v7:25.0.1'
+    testImplementation 'junit:junit:4.12'
 
 }

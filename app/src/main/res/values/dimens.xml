@@ -1,56 +1,12 @@
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-
     <dimen name="head_bar_heigh_common">45dp</dimen>
 
-    <dimen name="head_bar_text_size_min">16sp</dimen>
-    <dimen name="head_bar_text_size_mid">18sp</dimen>
-    <dimen name="head_bar_text_size_common">19sp</dimen>
-    <dimen name="head_bar_text_size_max">21sp</dimen>
-
     <!-- Pading 基础选项 -->
-    <dimen name="common_midx_padding">10.0dp</dimen>
     <dimen name="common_mid_padding">8.0dp</dimen>
-    <dimen name="common_max_padding">15.0dp</dimen>
-    <dimen name="common_margin">5.0dp</dimen>
-    <dimen name="common_padding">5.0dp</dimen>
-    <dimen name="common_min_padding">2.0dp</dimen>
-
-
-    <!-- Padding 特殊选项  -->
-    <dimen name="button_padding_common">@dimen/common_mid_padding</dimen>
-
-    <dimen name="input_padding_common">@dimen/common_midx_padding</dimen>
-
-    <!-- #################    通用基础项       ##########################-->
-    <!-- 圆角(radius1)基础选项-->
-    <dimen name="common_conner_radius">5.0dp</dimen>
-
     <!-- TextSize 基础选项  -->
-    <dimen name="common_min_text_size">12.0sp</dimen>
-    <dimen name="common_min_text_size1">18.0sp</dimen>
-    <dimen name="common_mid_text_size">17.0sp</dimen>
-    <dimen name="login_text_size">20.0dp</dimen>
-    <dimen name="standard_text_size">16.0sp</dimen>
-    <dimen name="common_mind_text_size">16.0sp</dimen>
-    <dimen name="common_text_size">15.0sp</dimen>
     <dimen name="common_mida_text_size">18.0sp</dimen>
-    <dimen name="common_max_text_size">21.0sp</dimen>
+    <dimen name="common_text_size">15.0sp</dimen>
 
-    <!-- ############     特殊项(继承自基础项)     ############### -->
-    <!-- TextSize 特殊选项  -->
-    <dimen name="tabbar_text_size">@dimen/common_min_text_size</dimen>
-    <dimen name="tabbar_text_size1">@dimen/common_min_text_size1</dimen>
-
-    <!--表格 分割线宽高-->
-    <dimen name="table_line">0.5dp</dimen>
-    <!--视图滑动切换工具:图标-->
-    <dimen name="viewPager_icon">25dp</dimen>
-    <!--加载的速度-->
-    <dimen name="loading_duration">500dp</dimen>
-    <!--默认高度-->
-    <dimen name="abc_action_bar_default_height_material">75dp</dimen>
-    
 </resources>
