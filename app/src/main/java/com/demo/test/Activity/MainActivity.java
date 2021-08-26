@@ -7,13 +7,11 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.demo.test.R;
 import com.demo.test.util.CharSeqUtil;
 import com.demo.test.util.DialogUtil;
-import com.demo.test.util.PhoneViewUtils;
 import com.demo.test.view.SweetDialog;
 
 /**
@@ -96,8 +94,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
                         }
                     }else if ("telephone".equals(Type)){
 //如果是电话显示 拨打
-                        ImageView phonetIv = dialog.getView(R.id.iv_phone);
-                        PhoneViewUtils.showOrHindPhoneView(MainActivity.this, phonetIv, s.toString());
+//                        ImageView phonetIv = dialog.getView(R.id.iv_phone);
+//                        PhoneViewUtils.showOrHindPhoneView(MainActivity.this, phonetIv, s.toString());
 
                         if (!CharSeqUtil.isMobilePhone(s.toString())) {
                             ensureBtn.setEnabled(false);
