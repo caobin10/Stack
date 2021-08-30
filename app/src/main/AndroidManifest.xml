@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.demo.test">
-
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <!--WRITE:写，READ:读，EXTERNAL:外部，STORAGE:存储-->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -25,6 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.demo.test.activity.TestActivity1"/>
+        <activity android:name="com.demo.test.activity.TestActivity2"/>
+        <activity android:name="com.demo.test.activity.TestActivity3"/>
 
     </application>
 

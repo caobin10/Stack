@@ -1,28 +1,23 @@
 package com.demo.test.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.demo.test.R;
 import com.demo.test.base.BaseActivity;
-import com.demo.test.manager.AppManager;
 
-
-/**
- * Created by Administrator on 2018/2/7.
- */
-
-public class MainActivity extends BaseActivity {
+public class TestActivity2 extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_test2);
     }
-    public void button1(View view){
 
-        Intent intent = new Intent(MainActivity.this,TestActivity1.class);
+    public void button3(View view) {
+
+        Intent intent = new Intent(TestActivity2.this, TestActivity3.class);
         startActivity(intent);
     }
 

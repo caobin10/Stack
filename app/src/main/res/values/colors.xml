@@ -9,11 +9,6 @@
     <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
     <color name="gray_btn_bg_color">#D0D0D0</color>
 
-    <!-- Button相关颜色 -->
-    <color name="button_bg_blue_normal">#AEDEF4</color>
-    <color name="button_text_color_common">@color/white</color>
-
-    <!-- 基础颜色 -->
-    <color name="red">#ffff0000</color>
+    <color name="transparent">#00000000</color>
 
 </resources>
